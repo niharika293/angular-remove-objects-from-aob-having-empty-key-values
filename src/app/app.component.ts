@@ -25,7 +25,7 @@ export class AppComponent {
     },
     { fact: '', operator: '', value: '', errorMessage: '' },
     {fact: 'CATEGORY', operator: '', value: '', errorMessage: ''}
-  ];
+  ];p
   transformdArray(obj) {
     // this.transformArray = this.test.filter(item => item);
     // return this.transformArray;
