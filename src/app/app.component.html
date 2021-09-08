@@ -1,0 +1,11 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+<p>  We'll take an array of objects and remove those objects which have empty values wrt the keys. </p>
+
+<p> Before : {{test | json}} </p>
+
+<button (click)="transformdArray(test)">Transform  </button>
+
+<p>{{newArray | json}} </p>
